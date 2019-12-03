@@ -1,0 +1,10 @@
+server:
+  port: 8801
+spring:
+  datasource:
+    url: jdbc:mysql://10.168.xx.xx:8106/uaf_activiti?Unicode=true&characterEncoding=UTF-8
+    username: root
+    password: xxxx
+  activiti:
+    database-schema-update: true
+    check-process-definitions: false
